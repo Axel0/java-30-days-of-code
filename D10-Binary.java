@@ -8,14 +8,14 @@ public class Solution {
      
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int s=0,t=0;
+        int rem=0,s=0,t=0;
 
 
         while(n>0){
-        
+            rem=n%2;
             n=n/2;
 
-            if(n%2==1){
+            if(rem==1){
                
                s++;
                 
